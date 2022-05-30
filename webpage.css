@@ -1,0 +1,72 @@
+.bgcolor{
+    background-image:url(study.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100vh;
+
+  }
+
+nav{
+            width: 100%;
+            position: fixed;
+            top: 0;
+            padding: 35px,0;
+            justify-content: space-between;
+            align-items: center;
+           
+            }
+            nav ul{
+            background-color:pink;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            
+            }
+            ul.navbar li{
+            list-style: none;
+            float: right;
+            padding-right: 20px;
+            text-align: center;
+            }
+         
+            ul.navbar li a{
+            display: block;
+            text-decoration: none;
+            min-height: 16px;
+            text-align: center;
+            padding: 14px;
+            text-transform: uppercase;
+            color:crimson;
+            }
+            ul.navbar li a:hover{
+            background-color:deeppink;
+            color: #fff;
+            }
+      ul.navbar.responsive{
+            position: relative;
+            
+               
+            
+            }
+            
+            ul.navbar.responsive li{
+            display: inline;
+            float: none;
+            }
+            ul.navbar.responsive li a{
+            display: block;
+            text-align: left;
+            }
+h1{
+    text-align: center;
+    color:rgb(205, 18, 114);
+    background-color: aqua;
+}
+            
+
+            
+            
+            
+            
+                
